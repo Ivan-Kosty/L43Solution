@@ -1,15 +1,23 @@
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main() {
 	int* pointer = NULL;
-	pointer = new int;
+	
+	pointer = new int[3];
 
-	*pointer = 10;
-	cout << sizeof(pointer) << " - " << pointer << endl;
-	cout << pointer << endl;
-	cout << *pointer << endl;
+	cout << "Before: " << pointer << endl;
+	cout << pointer + 0 << endl;
+	cout << pointer + 1 << endl;
+	cout << pointer + 2 << endl;
+	
+	/*cout << pointer++ << endl;
+	cout << pointer++ << endl;
+	cout << pointer++ << endl;
+	
 
-	delete pointer;
+	cout << "After: " <<pointer << endl;
+	delete[] pointer;
 
 	return 0;
 }
+*/
